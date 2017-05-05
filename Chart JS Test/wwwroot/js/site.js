@@ -1,7 +1,7 @@
 ﻿// Write your Javascript code.
 
 $(document).ready(function () {
-    require(['chart.js'], function (Chart) {
+    require(['Chart.min.js'], function (Chart) {
         var ctx = document.getElementById("myChart");
         var myChart = new Chart(ctx, {
             type: 'bar',
